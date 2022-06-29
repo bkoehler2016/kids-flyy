@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../../img/Kids Fly Logo.jpeg";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import About from "../About/About";
 import Home from "../Home/Home";
@@ -8,8 +9,9 @@ import Signup from "../Signup/Signup";
 const Navigation = () => {
   return (
     <Router>
-      <div>
+      <div className="containter home">
         <nav className="mainNav">
+          <img src={Logo} alt="logo" height={118} width={160} />
           <ul>
             <li>
               <Link to="/signup">Sign Up</Link>

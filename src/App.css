@@ -171,7 +171,8 @@ h2 {
 .mainNav {
   width: auto;
   height: auto;
-  font-size: medium;
+  font-size: 16px;
+  text-decoration: none;
 }
 .mainNav ul {
   overflow: auto;
@@ -184,7 +185,7 @@ h2 {
 .mainNav li a {
   padding: 3px 3px;
   text-decoration: none;
-  color: #23374d;
+  color: #1089ff;
 }
 .mainNav li a:hover {
   color: red;
@@ -222,8 +223,8 @@ h2 {
 .home {
   background-color: #e5e5e5;
 }
-.home .logo {
-  height: 20%;
+.logo {
+  height: 30%;
   width: 20%;
   border-radius: 0%;
   padding: 10px;
