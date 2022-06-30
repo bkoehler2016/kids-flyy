@@ -2,6 +2,7 @@ import React from "react";
 import headerImage from "../../img/Airplane2.jpeg";
 import familyImage from "../../img/Family_with_Luggage2.jpeg";
 import staffImage from "../../img/Airport_Staff.jpeg";
+import Footer from "../Footer/Footer";
 
 export default function Home() {
   return (
@@ -65,9 +66,7 @@ export default function Home() {
           click on cancel. There are no cancelllation fees.
         </p>
       </section>
-      <footer class="footer">
-        <p>Copyright &copy; KidsFly 2019</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
